@@ -1,0 +1,25 @@
+.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  svg {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  line {
+    stroke-width: 0.5;
+  }
+  
+  rect {
+    transition: all 0.3s ease;
+  }
+  
+  rect:hover {
+    fill: #ff7043;
+  }
+  
